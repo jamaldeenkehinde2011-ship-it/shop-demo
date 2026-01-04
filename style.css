@@ -1,0 +1,17 @@
+:root{--bg:#f7f7f8;--card:#ffffff;--accent:#2d6a4f;font-family:Inter, system-ui, Arial, sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:#222}
+.top{background:var(--accent);color:#fff;padding:18px 12px;text-align:center}
+.top h1{margin:0;font-size:1.4rem}
+.container{padding:14px;max-width:960px;margin:0 auto}
+.tag{opacity:.9;margin-top:6px;font-size:.95rem}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:12px}
+.product{background:var(--card);padding:10px;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.06);text-align:center}
+.product img{width:100%;height:auto;border-radius:6px;object-fit:cover}
+.product h3{margin:8px 0 4px;font-size:1rem}
+.price{color:var(--accent);font-weight:700}
+.contact{background:var(--card);padding:12px;border-radius:8px;margin-top:16px;text-align:center}
+.whatsapp{display:inline-block;background:#25D366;color:#fff;padding:10px 14px;border-radius:6px;text-decoration:none;font-weight:600;margin-top:8px}
+.small{color:#666;font-size:0.85rem;margin-top:8px}
+.foot{text-align:center;padding:12px;color:#666;font-size:.85rem}
+@media(min-width:720px){.container{padding:24px}}
